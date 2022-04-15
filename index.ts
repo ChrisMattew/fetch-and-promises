@@ -2,7 +2,6 @@ import { apiClient } from './api-client';
 
 // Resource: carts?limit=3
 const fetchCarts = () => {
-  // throw new Error('Network error cart');
   return apiClient.get('carts?limit=3');
 };
 // Resource: products/{id}
